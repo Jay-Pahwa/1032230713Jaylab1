@@ -14,6 +14,11 @@ function validateForm() {
         alert("Email must not be empty");
         return false;
     }
+    var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailPattern.test(email)) {
+        alert("Enter a valid email address");
+        return false;
+    }
 
     if (password.length < 6) {
         alert("Password must be at least 6 characters long");

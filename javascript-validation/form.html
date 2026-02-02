@@ -3,27 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
 
-<h2>Registration Form</h2>
+<div class="form-container">
+    <h2>Registration Form</h2>
 
-<form onsubmit="return validateForm()">
-    <label>Name:</label><br>
-    <input type="text" id="name"><br><br>
+    <form onsubmit="return validateForm()">
 
-    <label>Email:</label><br>
-    <input type="text" id="email"><br><br>
+        <label>Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
 
-    <label>Password:</label><br>
-    <input type="password" id="password"><br><br>
+        <label>Email</label>
+        <input type="text" id="email" placeholder="Enter your email">
 
-    <label>Mobile Number:</label><br>
-    <input type="text" id="mobile"><br><br>
+        <label>Password</label>
+        <input type="password" id="password" placeholder="Enter password">
 
-    <input type="submit" value="Register">
-</form>
+        <label>Mobile Number</label>
+        <input type="text" id="mobile" placeholder="10-digit mobile number">
+
+        <input type="submit" value="Register">
+    </form>
+</div>
 
 </body>
 </html>
