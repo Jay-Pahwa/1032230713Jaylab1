@@ -1,43 +1,61 @@
-/* Page base styling */
+/* Base Styling */
 body {
     font-family: Arial, sans-serif;
-    margin: 50px;
-    background-color: #ffffff;
+    margin: 0;
+    background-color: #f4f4f4;
     color: #333;
 }
 
-/* Name */
-h1 {
-    color: #2c3e50;
+/* Header */
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.header h1 {
     margin-bottom: 5px;
 }
 
-/* Section headings */
-h2 {
-    color: #34495e;
-    margin-top: 25px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 5px;
+.tagline {
+    font-size: 16px;
+    margin-bottom: 8px;
 }
 
-/* Paragraph text */
-p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 6px 0;
+.contact {
+    font-size: 14px;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+/* Headings */
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
 }
 
 /* Lists */
 ul {
-    margin-left: 20px;
+    list-style-type: square;
+    padding-left: 20px;
 }
 
 li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
-/* Contact info */
-p:first-of-type,
-p:nth-of-type(2) {
-    font-weight: bold;
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 20px;
 }
