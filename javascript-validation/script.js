@@ -1,9 +1,9 @@
 function validateForm() {
 
-    var name = document.getElementById("name").value;
-    var email = document.getElementById("email").value;
-    var password = document.getElementById("password").value;
-    var mobile = document.getElementById("mobile").value;
+var name = document.getElementById("name").value;
+var email = document.getElementById("email").value;
+var password = document.getElementById("password").value;
+var mobile = document.getElementById("mobile").value;
 
     if (name === "") {
         alert("Name must not be empty");
